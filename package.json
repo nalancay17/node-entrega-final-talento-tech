@@ -1,0 +1,20 @@
+{
+  "name": "entrega-final-talento-tech",
+  "version": "1.0.0",
+  "description": "API REST para proyecto final del curso de NodeJS de Talento Tech, con Express.js, Firebase y JWT.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "Nicolás Alancay",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "firebase": "^12.6.0"
+  }
+}
